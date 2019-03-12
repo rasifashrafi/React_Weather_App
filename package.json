@@ -1,0 +1,38 @@
+{
+  "name": "weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "http://rashrafi.techlaunch.online/React-Weather-App",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "i": "^0.3.6",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-geocode": "^0.1.2",
+    "react-geolocated": "^2.4.1",
+    "react-moment": "^0.8.4",
+    "react-native": "^0.58.6",
+    "react-native-weather": "^0.2.11",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

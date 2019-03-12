@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("https://1.bp.blogspot.com/-sdLbkE5gOZg/W9h64NJ33HI/AAAAAAAAAWQ/zzWaqzsLLwEJxpXC1X4absHWaNTH691bwCLcBGAs/s1600/Beautiful%2BSunrise%2BScene%2B4K%2BNature%2BBackground%2BFlowers%2BPlants%2BFog%2BMountains.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title{
+  text-align: center;
+}
+
+.search_form{
+  float: left;
+  margin-left: 60px;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  height: 500px;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.result{
+  float: right;
+  margin-right: 60px;
+  background-image: url("https://i.pinimg.com/originals/15/e4/64/15e464920871366c8204dd5c63304239.png");
+  text-align: center;
+  color: rgb(156, 24, 7);
+  height: 500px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.result_text{
+  background-color: rgb(255, 179, 128);
+  width: 50%;
+  margin-top: 200px;
+  margin: auto;
+}
+
+.result_text:hover{
+  background-color: rgb(13, 26, 34);
+  width: 50%;
+  margin-top: 200px;
+  margin: auto;
+  color: #fff;
+  zoom: 1.3;
+}
+.city, .country {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.weather{
+  display: flex;
+  justify-content: space-between;
+}
+
+.current_location{
+  background-image: url("https://images.pexels.com/photos/755385/pexels-photo-755385.jpeg?cs=srgb&dl=backlit-bird-clouds-755385.jpg&fm=jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 92%;
+  margin: auto;
+}
+
+.weather-information, .location{
+  color: rgb(10, 10, 10);
+}
+
+
+
+.selection-row button:nth-child(odd){
+  background-color: rgb(63, 0, 0);
+  color: #ccc
+}
+
+.selection-row button:nth-child(even){
+  background-color: rgb(0, 0, 77);
+  color: #ccc
+}
+
+.weather_data_days{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.days_data_container{
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+
+.days_data{
+  background-color: #ccc;
+  text-align: center;
+}
+
+.days{
+  text-align: center;
+}
+.selection-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.weather-information{
+  margin-top: 0;  
+}
+
+.selection-row button{
+  float: right;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.selection-row li{
+  list-style-type: none;
+}
